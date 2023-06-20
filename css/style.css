@@ -16,32 +16,50 @@
   max-width: 1180px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
-
-/* .bg-orange {
-  background-color: #daa520;
-  min-height: 40px;
-} */
 
 .flex {
   display: flex;
 }
+.align-content {
+  align-content: center;
+}
+.wrap {
+  flex-wrap: wrap;
+}
 .between {
   justify-content: space-between;
+}
+.justify {
+  justify-content: center;
+}
+.flex-direction {
+  flex-direction: column;
 }
 
 .align {
   align-items: center;
 }
-/* .bordered {
-  border: 2px dashed black;
-} */
+
+.button {
+  padding: 10px;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.text {
+  margin-top: 15px;
+}
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
 .card-box {
   min-height: 400px;
   padding: 2rem 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-image: url(../img/jumbo.png);
   background-size: cover;
 }
