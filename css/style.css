@@ -135,6 +135,7 @@ h1 {
 
 .col-25 {
   width: 25%;
+  color: white;
 }
 .footer-top {
   border: 1px solid lightgray;
@@ -143,4 +144,13 @@ h1 {
 .footer-top,
 .footer-bottom {
   padding: 2rem 0;
+}
+
+ul {
+  list-style: none;
+  color: white;
+}
+
+.white {
+  color: white;
 }
